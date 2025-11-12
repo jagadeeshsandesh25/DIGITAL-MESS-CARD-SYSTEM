@@ -172,6 +172,3 @@ Owner / Lead: **Jai (Jagadeesh Sandesh)**
 
 * Email: `jagadeeshsandesh@gmail.com`
 
----
-
-> _Ready to deploy. If you want, nenu convert chesi PDF ga or add sample `.env` file and a quick-install script kuda ivvagalanu. Tell me which one you wan
