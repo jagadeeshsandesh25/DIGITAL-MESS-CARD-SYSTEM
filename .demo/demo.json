@@ -1,0 +1,14 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "Demo",
+  "description": "fqaef",
+  "version": 2,
+  "demos": [
+    {
+      "id": "demo-mh3mi0v7-x8vo",
+      "title": "Demo 1",
+      "steps": []
+    }
+  ],
+  "timer": 1
+}

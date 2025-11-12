@@ -1,0 +1,105 @@
+/* assets/css/auth.css */
+
+/* --- Auth Pages (Login/Signup) --- */
+
+.auth-page-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 56px - 56px); /* Adjust for navbar/footer height */
+  padding: 1rem;
+  background-color: #f0f2f5; /* Slightly different background for auth pages */
+}
+
+.auth-form-container {
+  width: 100%;
+  max-width: 430px;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 0.75rem; /* Slightly more rounded corners */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.auth-form-container h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #343a40;
+  font-weight: 700;
+}
+
+.auth-form-container .form-label {
+  font-weight: 500;
+  color: #495057;
+}
+
+.auth-form-container .form-control {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem; /* More rounded input fields */
+}
+
+.auth-form-container .btn {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 0.5rem; /* More rounded buttons */
+  margin-top: 1rem;
+}
+
+.auth-form-container .form-text {
+  font-size: 0.875rem;
+}
+
+.auth-form-container .alert {
+  border-radius: 0.5rem; /* More rounded alerts */
+  font-size: 0.9rem;
+}
+
+/* Logo/Header Section (if used) */
+.auth-logo {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.auth-logo img {
+  max-width: 150px; /* Adjust logo size */
+  height: auto;
+}
+
+.auth-logo h3 {
+  margin-top: 1rem;
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Footer Links */
+.auth-footer-links {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.auth-footer-links a {
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.auth-footer-links a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 575.98px) {
+  .auth-form-container {
+    padding: 1.5rem;
+  }
+
+  .auth-form-container h2 {
+    font-size: 1.5rem;
+  }
+}
